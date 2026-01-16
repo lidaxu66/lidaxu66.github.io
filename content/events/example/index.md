@@ -1,25 +1,34 @@
+
 ---
-title: Example Talk
+share: false
+title: "Invited Talk: Integrated Nonlinear Topological Photonics"
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: The 55th Winter Colloquium on the Physics of Quantum Electronics (PQE) 
+event_url: https://www.pqeconference.com/
 
-location: Hugo Blox Builder HQ
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+location: Snowbird, UT
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+
+summary: My recent works on Integrated Nonlinear Topological Photonics.
+abstract: 'Microresonator frequency combs have revolutionized precision metrology, spectroscopy, and optical
+communication. Yet, nearly all existing platforms rely on single-ring resonators, where nonlinear dynamics
+are governed by a single timescale—set by one free spectral range determined by the geometry of the
+resonator. This inherently restricts control over optical synchronization, frequency-phase matching, and the
+existence of solitons. In contrast, topological photonic lattices provide a new synthetic dimension of control:
+multiple coupled resonators create multi-timescale interactions that reshape how nonlinear light evolves on
+a chip.
+
+We overcome these challenges by combining microresonator frequency combs with topological photon-
+ics to uncover new regimes of nonlinear light generation, multi-timescale synchronization, and new
+mechanisms of frequency–phase matching. Our ongoing work on integer quantum Hall (IQH) topological frequency combs explores waveguide-geometry-agnostic dispersion engineering and how octave-spanning microcombs can be used to probe topological physics. Moreover, our theoretical work predicts
+exotic solitonic states that go beyond conventional topological models. These results show that topological photonics offers advantages beyond topological protection and establishes a new design principle in
+nonlinear integrated photonics.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
-all_day: false
+date: '2026-01-05T6:00:00Z'
+date_end: '2026-01-09T22:00:00Z'
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
@@ -30,43 +39,19 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**PQE**](https://www.pqeconference.com/)'
   focal_point: Right
 
 links:
-  - type: code
-    url: https://github.com
+  #- type: code
+  #  url: https://github.com
   - type: slides
-    url: https://slideshare.net
-  - type: video
-    url: https://youtube.com
+    url: PQE_2026_Lida_Xu.pdf
+  #- type: video
+  #  url: https://youtube.com
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
-  - example
 ---
-
-> [!NOTE]
-> Click on the **Slides** button above to view the built-in slides feature.
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using the `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to this page bundle and link it using `links: [{ type: slides, url: path/to/file } ]` in front matter
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.

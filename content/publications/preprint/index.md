@@ -1,11 +1,30 @@
 ---
-title: "An example preprint / working paper"
+title: "Quantum Metamorphosis: Programmable Emergence and the Breakdown of Bulk-Edge Dichotomy in Multiscale Systems"
 authors:
+- M. J. Mehrabad
+- A. Parhizkar
 - admin
-date: "2019-04-07T00:00:00Z"
+- G. Moille
+- A. Dutt
+- D. Englund
+- K. Srinivasan
+- D. Leykham
+- M. Hafezi
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+- "Equal contribution"
+- ""
+- ""
+- ""
+- ""
+- ""
+- "Corresponding author"
+
+date: "2025-11-17T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-11-17T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,44 +35,27 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Multiscale synergy—the interplay of a system’s distinct characteristic length, time, and energy scales—is becoming a unifying thread across many contemporary branches of science. Ranging from moiré and super-moiré materials and cold atoms to DNA-templated superlattices and nested photonic networks, multiscale synergy produces behaviors not obtainable at any single scale alone. Yet a general framework that programs cross-scale interplay to steer spectra, transport, and topology has been missing. Here, we elevate multiscale synergy from a byproduct to a general design principle for emergent phenomena. Specifically, we introduce a scale-programmable framework for hierarchically nested lattices (HNLs) that can host quantum metamorphosis (QuMorph)—a continuous evolution between system-dependent features governed by a dimensionless tunable parameter α (the relative hopping). To exemplify, we show an HNL, in which as α changes, the spectrum metamorphoses from integer quantum Hall–like to anomalous quantum Hall–like, passing through a cocoon regime with proliferating mini-gaps. This multiscale mixing yields multiple novel phenomena, including hybrid edge–bulk states, scale-dependent topology, topologically embedded flat bands, and isolated edge bands. We propose a feasible photonic implementation using commercially available coupled-resonator arrays, outline spatial–spectral signatures to map QuMorph, and explore applications for multi-timescale nonlinear optics. Our work establishes a scalable and programmable paradigm for engineering multiscale emergent phenomena.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Quantum optics
+- Topological physics
 
-featured: true
+featured: false
 
-hugoblox:
-  ids:
-    arxiv: 1512.04133v1
+
 
 links:
 - type: preprint
   provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+  id: 2511.13831
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -73,9 +75,7 @@ projects:
 slides: ""
 ---
 
-This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
+Atoms form molecules, which give rise to nucleotides that assemble into DNA. Segments of DNA become genes, and genes encode the proteins that build increasingly complex systems. Layer upon layer, something remarkable emerges—life. Life is perhaps one of the most vivid examples of emergence in nature: multilayer structures are never just the sum of their components. Instead, the synergy among layers collectively gives rise to new phenomena.
 
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
+Presented in our new paper, we introduce a programmable framework of multi-layer quantum systems, and a single parameter can be used to program the synergy of different layers, revealing new physics that simply doesn't exist in single-layer systems. This single parameter plays a role analogous to a gene-regulatory switch in biology: by tuning it, one can steer the multilayer system into entirely different emergent behaviors—much like a gene network guiding a cell toward becoming muscle or skin.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

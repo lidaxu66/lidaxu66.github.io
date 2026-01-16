@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Lida Xu"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -35,6 +35,7 @@ hugoblox:
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
+    initial: matcha
     # Optional: Override theme pack colors
     colors:
       primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
@@ -116,7 +117,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}."
     license:
       type: cc                          # cc | all_rights | custom
       allow_derivatives: false
@@ -291,3 +292,7 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+assets:
+  css:
+    - css/custom.css
+

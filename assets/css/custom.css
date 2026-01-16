@@ -1,0 +1,13 @@
+/* Make all “article-style” text blocks wider everywhere */
+
+.prose {
+  max-width: 1100px !important;
+}
+
+/* In case Hugo uses Tailwind width helpers too */
+.max-w-prose,
+.max-w-2xl,
+.max-w-3xl {
+  max-width: 1100px !important;
+}
+
