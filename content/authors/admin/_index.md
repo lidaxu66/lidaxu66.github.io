@@ -162,3 +162,5 @@ simultaneously advancing practical device engineering and probing fundamental to
 
 I consider myself a hybrid of a physicist and an engineer, and a hybrid of an experimentalist and a theorist. 
 Fundamental science is cool, and I try to benefit the real world with it.  
+
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=p9dWKAfHeD5OflPPZzy3zWbAjnfGfahpLNQSATRSjQM&cl=ffffff&w=a"></script>
