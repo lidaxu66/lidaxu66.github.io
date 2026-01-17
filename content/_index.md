@@ -77,8 +77,21 @@ sections:
         folders:
           - publications
         exclude_featured: false
+        exclude_publication_types:
+          - "8"
     design:
       view: citation
+  - block: collection
+    id: patents
+    content:
+      title: Patents (all equal share)
+      text: ""
+      filters:
+        folders:
+          - patents
+    design:
+      view: citation
+
   - block: collection
     id: talks
     content:
@@ -88,6 +101,18 @@ sections:
           - events
     design:
       view: card
+  - block: markdown
+    content:
+      title: ""
+      subtitle: ""
+      text: |
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+          <a href="https://info.flagcounter.com/AV3Q">
+            <img src="https://s01.flagcounter.com/countxl/AV3Q/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_10/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0">
+          </a>
+        </div>
+    design:
+      columns: "1"
 #  - block: collection
 #    id: news
 #    content:
@@ -138,3 +163,4 @@ sections:
 #        css_class: 'bg-primary-300 dark:bg-primary-700'
 #        css_style: ''
 ---
+

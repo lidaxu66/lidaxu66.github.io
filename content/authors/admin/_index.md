@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 徐李达 (Lida Xu) 
+title:  Lida Xu (徐李达) 
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -72,23 +72,23 @@ education:
       GPA: 4.5/5.0
 
 # when you have a job just uncomment work
-#work:
-#  - position: Postdoc
-#    company_name:  
-#    company_url: ''
-#    icon: ''
-#    date_start: 2026-06-01
-#    date_end: ''
-#    summary: |2-
-#      haha
-#  - position: AI Research Intern
-#    company_name: OpenAI
-#    company_url: 'https://openai.com/'
-#    icon: ''
-#    date_start: 2019-06-01
-#    date_end: 2019-12-31
-#    summary: |
-#      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+work:
+  - position: Research Assistant
+    company_name: SUSTech 
+    company_url: ''
+    icon: ''
+    date_start: 2020-08-20
+    date_end: 2021-04-20 # if it is present use ''
+    summary: |
+      Gap year due to COVID. Research Assistant with Dr. Xiuhao Deng.
+  - position: Undergrad visitor
+    company_name: University of Virginia
+    company_url: ''
+    icon: ''
+    date_start: 2019-07-01
+    date_end: 2019-08-31
+    summary: |
+      Short term summer visit to Prof. Olivier Pfister's lab.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
