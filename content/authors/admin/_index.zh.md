@@ -1,16 +1,16 @@
 ---
 # Display name
-title:  Lida Xu
+title: 徐李达 
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Lida
-last_name: Xu
+first_name: 李达
+last_name: 徐
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: ""
 
 # Status emoji
 status:
@@ -23,11 +23,10 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Physics PhD Candidate
-
+role: 物理学博士在读
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Joint Quantum Institute/ UMD physics
+  - name: 联合量子研究中心JQI/ 马里兰大学物理系
     url: https://hafezi.jqi.umd.edu/people/lida-xu
 
 # Social network links
@@ -46,25 +45,25 @@ profiles:
     url: https://orcid.org/0009-0005-3655-7868
 
 interests:
-  - Topological photonics
-  - Frequency combs
-  - Nonlinear photonics
-  - Quantum photonics
+  - 拓扑光子学
+  - 光学频率梳
+  - 非线性光学
+  - 量子光子学
 
 
 education:
-  - area: PhD Physics 
-    institution: University of Maryland, College Park
+  - area: 物理学博士 
+    institution: 美国马里兰大学
     icon: "🎓"
     date_start: 2021-09-01
     date_end: 2026-12-30
     summary: |
-      Thesis on _Integrated Nonlinear Topological Photonics (INTP)_. Supervised by Prof. Mohammad Hafezi.
+      毕业论文： _Integrated Nonlinear Topological Photonics (INTP)_. 导师： Mohammad Hafezi。
     #button:
-      #text: 'Read Thesis'
+      #text: '论文链接'
       #url: 'https://example.com/thesis.pdf'
-  - area: BS Physics
-    institution: Nanjing University
+  - area: 物理学学士
+    institution: 中国南京大学
     icon: "🏫"
     date_start: 2016-09-01
     date_end: 2020-09-01
@@ -73,42 +72,42 @@ education:
 
 # when you have a job just uncomment work
 work:
-  - position: Research Assistant
-    company_name: SUSTech 
+  - position: 科研助理
+    company_name: 中国南方科技大学 
     company_url: ''
     icon: ''
     date_start: 2020-08-20
     date_end: 2021-04-20 # if it is present use ''
     summary: |
-      Gap year due to COVID. Research Assistant with Dr. Xiuhao Deng.
-  - position: Undergrad visitor
-    company_name: University of Virginia
+      疫情导致毕业后推迟一年赴美读博。科研助理导师：邓修豪研究员。
+  - position: 本科暑期访问
+    company_name: 美国弗吉尼亚大学
     company_url: ''
     icon: ''
     date_start: 2019-07-01
     date_end: 2019-08-31
     summary: |
-      Short term summer visit to Prof. Olivier Pfister's lab.
+      在Olivier Pfister教授课题组短期访问。
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 技能
     items:
       - name: Python & MATLAB 
-        description: 'With AI it''s easy to code in any language, but I prefer python.'
+        description: '利用AI工具，是个人都会编程。'
         percent: 95
         icon: 💻😊
-      - name: Finite-Difference Time-Domain simulations (FDTD)
-        description: 'Powerful numerical tool to solve Maxwell''s equations. Lumerical or Tidy3D.'
+      - name: 时域有限差分法模拟 (FDTD)
+        description: '数值求解麦克斯韦方程组的办法。软件是Lumerical或者Tidy3D。'
         percent: 95
         icon: 🖥️😉
-      - name: Integrated photonics
-        description: 'Design and measure of photonic integrated circuits.'
+      - name: 集成光子学
+        description: '懂一点集成光学的设计和测量。'
         percent: 100
         icon: 🔬😎
-      - name: Latex and Inkscape
-        description: 'Tools I use for paper writing.'
+      - name: Latex 和 Inkscape
+        description: '写论文用的。Latex可以用Overleaf。'
         percent: 85
         icon: ✍️😟
       #- name: Blender
@@ -119,26 +118,26 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Football
-        description: 'Namely soccer for Americans'
+      - name: 足球
+        description: '也就是美国人嘴里的soccer。曾经效力于南京大学物理学院本科足球队主管饮水机。'
         percent: 80
         icon: ⚽😆
-      - name: Video games
-        description: 'Games are for fun, don''t get angry unnecessarily.'
+      - name: 电子游戏
+        description: '玩玩放松心情就得了，不要当真上头，还是要好好科研。'
         percent: 90
         icon: 🎮🤩
-      - name: Promoting Science
-        description: 'Yeah I like explaining science to people.'
+      - name: 搞点科普
+        description: '锻炼自己的教学能力。做过几个B站视频。'
         percent: 70
         icon: 🔭🗣️
-      - name: Diving into nature
-        description: 'It''s a good escape from lab. I like both nature and Nature, also science and Science.'
+      - name: 拥抱大自然
+        description: '工作做多了就出去看看大自然。 我喜欢nature和Nature，也喜欢science和Science。'
         percent: 70
         icon: 🏕️🚗
 languages:
-  - name: English
+  - name: 英语
     percent: 90
-  - name: Chinese
+  - name: 中文
     percent: 100
 
 # Awards.
@@ -146,21 +145,18 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: School of Physics Elite Program Scholarship
+  - title: 南京大学拔尖奖学金
     url: https://physics.nju.edu.cn/
     date: '2019-11-05'
-    awarder: Nanjing University
+    awarder: 南京大学物理学院
     icon: hero/trophy
     summary: |
-      Awarded for excellence in physics studies.
+      本科努力学习绩点高就可以了。
 
 ---
+**宽带拓扑、非线性与集成光子学：** 我致力于构建光子集成电路，通过在跨倍频程带宽上利用拓扑性质，实现具有晶圆级可重复性、鲁棒且即插即用的非线性器件。我的研究涵盖拓扑光频梳、片上多时间尺度同步、宽带人工规范场以及集成谐波产生——在推进实用器件工程的同时，深入探索基础拓扑物理与量子光学。
 
-**Broadband topological, nonlinear, and integrated photonics:** I build photonic integrated circuits that harness topological properties
-across octave-spanning bandwidths to create turnkey, robust nonlinear devices with wafer-scale reproducibility. My work spans topological frequency combs, on-chip multi-timescale synchronization, broadband artificial gauge fields, and integrated harmonic generation —
-simultaneously advancing practical device engineering and probing fundamental topological physics and quantum optics.
+我视自己为物理学家与工程师的结合体，也是实验学家与理论学家的融合体。基础科学很酷，我致力于将其转化为造福现实世界的应用。
 
-I consider myself a hybrid of a physicist and an engineer, and a hybrid of an experimentalist and a theorist. 
-Fundamental science is cool, and I try to benefit the real world with it.  
 
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=p9dWKAfHeD5OflPPZzy3zWbAjnfGfahpLNQSATRSjQM&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>

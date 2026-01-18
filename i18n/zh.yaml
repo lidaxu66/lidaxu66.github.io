@@ -1,0 +1,11 @@
+- id: publication_type
+  translation: 文章类型
+
+- id: publication
+  translation: 发表期刊
+
+- id: event
+  translation: 会议
+
+- id: location
+  translation: 地点

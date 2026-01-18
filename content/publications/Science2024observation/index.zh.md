@@ -1,5 +1,5 @@
 ---
-title: "Observation of topological frequency combs"
+title: "拓扑频率梳的实验观测"
 authors:
 - C. J. Flower
 - M. J. Mehrabad
@@ -36,14 +36,14 @@ publication_types: ["article-journal"]
 publication: "*Science*"
 publication_short: ""
 
-abstract: On-chip generation of optical frequency combs using nonlinear ring resonators has enabled numerous applications of combs that were otherwise limited to mode-locked lasers. Nevertheless, on-chip frequency combs have relied predominantly on single-ring resonators. In this study, we experimentally demonstrate the generation of a novel class of frequency combs, the topological frequency combs, in a two-dimensional lattice of hundreds of ring resonators that hosts fabrication-robust topological edge states with linear dispersion. By pumping these edge states, we demonstrate the generation of a nested frequency comb that shows oscillation of multiple edge state resonances across ≈40 longitudinal modes and is spatially confined at the lattice edge. Our results provide an opportunity to explore the interplay between topological physics and nonlinear frequency comb generation in a commercially available nanophotonic platform.
+abstract: 利用非线性环形谐振器在片上产生光频梳，使得许多原本局限于锁模激光器的光梳应用成为可能。然而，现有的片上光频梳主要依赖于单个环形谐振器。在这项研究中，我们在由数百个环形谐振器组成的二维晶格中，实验演示了一类新型光频梳——拓扑光频梳的产生。该晶格支持具有线性色散且对制造工艺鲁棒的拓扑边缘态。通过泵浦这些边缘态，我们展示了一种嵌套光频梳 (nested frequency comb) 的产生，该光梳表现为多个边缘态谐振模式在约 40 个纵模范围内的振荡，且在空间上被局域在晶格边缘。我们的研究结果为在商用纳米光子平台上探索拓扑物理与非线性光频梳产生之间的相互作用提供了契机。
 
 # Summary. An optional shortened abstract.
-summary: Topological frequency combs are novel types of Kerr frequency combs. When pumping the topological photonic lattice spectrally in the edge band, nested frequency combs are generated, inheriting the topological properties of the lattice. 
+summary: 拓扑光频梳是一类新型的克尔光频梳。当在拓扑光子晶格的边缘能带进行光谱泵浦时，会产生嵌套光频梳，这些光梳继承了晶格的拓扑特性。
 
 tags:
-- Topological Physics
-- Nonlinear Optics
+- 拓扑物理
+- 非线性光学
 featured: True
 
 
@@ -73,4 +73,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
