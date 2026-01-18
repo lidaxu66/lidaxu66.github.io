@@ -14,8 +14,8 @@ authors:
 - K. Srinivasan
 - M. Hafezi
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- "共同一作"
+- "共同一作"
 - ""
 - ""
 - ""
@@ -25,7 +25,7 @@ author_notes:
 - ""
 - ""
 - ""
-- "Corresponding author"
+- "通讯作者"
 date: "2025-11-06T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).

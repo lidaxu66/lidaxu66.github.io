@@ -73,6 +73,7 @@ sections:
     content:
       title: 全部论文
       text: ''
+      count: 10
       filters:
         folders:
           - publications

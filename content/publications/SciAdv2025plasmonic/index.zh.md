@@ -15,18 +15,18 @@ authors:
 - M. Hafezi
 
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-- "Equal contribution"
-- "Equal contribution"
+- "共同一作"
+- "共同一作"
+- "共同一作"
+- "共同一作"
 - ""
 - ""
 - ""
 - ""
 - ""
 - ""
-- "Corresponding author"
-- "Corresponding author"
+- "共同通讯"
+- "共同通讯"
 date: "2025-03-26T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
