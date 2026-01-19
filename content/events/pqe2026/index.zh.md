@@ -39,6 +39,7 @@ links:
   #- type: code
   #  url: https://github.com
   - type: slides
+    name: "幻灯片"
     url: PQE_2026_Lida_Xu.pdf
   #- type: video
   #  url: https://youtube.com

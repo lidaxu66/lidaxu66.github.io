@@ -9,3 +9,10 @@
 
 - id: location
   translation: 地点
+
+# --- 添加以下部分 ---
+- id: presenting_slides
+  translation: 幻灯片
+
+- id: slides
+  translation: 幻灯片

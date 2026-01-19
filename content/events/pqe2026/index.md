@@ -53,5 +53,4 @@ links:
   #- type: video
   #  url: https://youtube.com
 
-
 ---
