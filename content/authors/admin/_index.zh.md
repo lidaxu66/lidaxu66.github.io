@@ -58,9 +58,9 @@ education:
     date_start: 2021-09-01
     date_end: 2026-12-30
     summary: |
-      毕业论文： _Integrated Nonlinear Topological Photonics (INTP)_. 导师： Mohammad Hafezi。
+      毕业论文： _Integrated Nonlinear Topological Photonics (INTP)_. <br>导师： Mohammad Hafezi 教授
     #button:
-      #text: '论文链接'
+      #text: '毕业论文链接'
       #url: 'https://example.com/thesis.pdf'
   - area: 物理学学士
     institution: 中国南京大学
@@ -68,26 +68,47 @@ education:
     date_start: 2016-09-01
     date_end: 2020-09-01
     summary: |
-      GPA: 4.5/5.0
+      GPA: 4.5/5.0 <br>
+      毕业论文：_与NdYSO量子存储器匹配的单光子源的搭建_ <br>
+            导师：马小松 教授
+    button:
+      text: '毕业论文链接'
+      url: '/uploads/thesis_undergrad.pdf'
 
+  - area: 初高中教育
+    institution: 江苏省天一中学
+    icon: "🕖"
+    date_start: 2010-09-01
+    date_end: 2016-09-01
+    summary: |
+      初中（2010-2013）：天一中学少年部 <br> 班主任： 杨澄宇  <br>
+           高中（2013-2016）：天一中学高中强化班 <br> 班主任：卫晓燕 王明德
+  - area: 小学教育
+    institution: 中国无锡华晶小学（后并入育英小学）
+    icon: "🌱"
+    date_start: 2005-09-01
+    date_end: 2010-09-01   
+    summary: |
+       感谢默默无闻为小朋友启蒙世界的小学教师
 # when you have a job just uncomment work
 work:
   - position: 科研助理
     company_name: 中国南方科技大学 
     company_url: ''
-    icon: ''
+    icon: '🔎'
     date_start: 2020-08-20
     date_end: 2021-04-20 # if it is present use ''
     summary: |
-      疫情导致毕业后推迟一年赴美读博。科研助理导师：邓修豪研究员。
+      疫情导致本科毕业后推迟一年赴美读博 <br>
+            科研助理导师：邓修豪研究员
   - position: 本科暑期访问
     company_name: 美国弗吉尼亚大学
     company_url: ''
-    icon: ''
+    icon: '🚗'
     date_start: 2019-07-01
     date_end: 2019-08-31
     summary: |
-      在Olivier Pfister教授课题组短期访问。
+      本科暑假在Olivier Pfister教授课题组短期访问
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

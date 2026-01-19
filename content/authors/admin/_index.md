@@ -76,7 +76,7 @@ work:
   - position: Research Assistant
     company_name: SUSTech 
     company_url: ''
-    icon: ''
+    icon: '🔎'
     date_start: 2020-08-20
     date_end: 2021-04-20 # if it is present use ''
     summary: |
@@ -84,7 +84,7 @@ work:
   - position: Undergrad visitor
     company_name: University of Virginia
     company_url: ''
-    icon: ''
+    icon: '🚗'
     date_start: 2019-07-01
     date_end: 2019-08-31
     summary: |
