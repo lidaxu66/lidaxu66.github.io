@@ -1,0 +1,34 @@
+<div class="pub-list-item view-citation" style="margin-bottom: 2rem; border-left: 4px solid #111; padding-left: 18px;">
+
+  {{/* 1. 使用你验证成功的“小写”探测路径 */}}
+  {{ $item := . }}
+  {{ if .item }}{{ $item = .item }}{{ end }}
+  {{ if .Page }}{{ $item = .Page }}{{ end }}
+
+  <div style="font-weight: 900; color: #000; font-size: 1.15rem; margin-bottom: 6px;">
+    {{ if $item.Params.publication }}
+      {{ $item.Params.publication | markdownify }}.
+    {{ else if $item.Params.publication_short }}
+      {{ $item.Params.publication_short | markdownify }}.
+    {{ else }}
+      Preprint.
+    {{ end }}
+  </div>
+
+  <div class="article-metadata li-cite-author" style="color: #333; margin-bottom: 6px;">
+    {{ partial "page_metadata_authors" $item }}.
+    {{ $year := "2025" }}
+    {{ with $item.Date }}{{ $year = .Format "2006" }}{{ end }}
+    ({{ $year }}).
+  </div>
+
+  <div style="font-size: 1.05rem;">
+    <a href="{{ $item.RelPermalink }}" style="font-style: italic; text-decoration: underline; color: #0056b3;">
+      {{ $item.Title }}
+    </a>.
+  </div>
+
+  <div class="btn-links" style="margin-top: 10px;">
+    {{ partial "page_links" (dict "page" $item "item_type" "publication") }}
+  </div>
+</div>
