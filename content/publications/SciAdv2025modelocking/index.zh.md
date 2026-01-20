@@ -55,7 +55,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: '图片来源: [**Science Advances**](https://www.science.org/doi/full/10.1126/sciadv.adw7696)'
   focal_point: "Top"
   preview_only: false
 

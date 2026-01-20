@@ -55,7 +55,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: 'Image credit: [**Science**](https://www.science.org/doi/full/10.1126/science.ado0053)'
   focal_point: "Top"
   preview_only: false
 
