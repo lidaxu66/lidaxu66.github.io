@@ -57,7 +57,7 @@ links:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
+  focal_point: "Top"
   preview_only: false
 
 # Associated Projects (optional).
