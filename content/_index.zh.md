@@ -101,7 +101,7 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: card-small
   - block: markdown
     content:
       title: ""

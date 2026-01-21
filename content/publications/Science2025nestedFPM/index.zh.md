@@ -1,5 +1,6 @@
 ---
 title: "面向高产率非线性光子学的多时间尺度频率-相位匹配"
+author_note: "共同一作"
 authors:
 - M. J. Mehrabad
 - admin

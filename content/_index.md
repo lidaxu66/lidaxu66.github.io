@@ -71,7 +71,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: All Publications
       text: ''
       count: 10 
       filters:
@@ -101,7 +101,7 @@ sections:
         folders:
           - events
     design:
-      view: card
+      view: card-small
   - block: markdown
     content:
       title: ""

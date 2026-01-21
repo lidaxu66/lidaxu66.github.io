@@ -1,5 +1,6 @@
 ---
 title: "Multi-timescale frequency-phase matching for high-yield nonlinear photonics"
+author_note: "Co-First Author"
 authors:
 - M. J. Mehrabad
 - admin

@@ -1,5 +1,6 @@
 ---
 title: "片上多时间尺度时空光学同步"
+author_note: "第一作者"
 authors:
 - admin
 - M. J. Mehrabad

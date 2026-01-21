@@ -1,5 +1,6 @@
 ---
 title: "拓扑频率梳的实验观测"
+author_note: "共同一作"
 authors:
 - C. J. Flower
 - M. J. Mehrabad

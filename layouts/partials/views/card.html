@@ -1,0 +1,41 @@
+{{ $item := . }}
+{{ if .item }}{{ $item = .item }}{{ end }}
+{{ if .Page }}{{ $item = .Page }}{{ end }}
+
+<div class="group relative">
+  {{ $image := $item.Resources.GetMatch "featured*" }}
+  {{ if $image }}
+    {{/* 彻底移除 aspect-video，让 Science 封面恢复纵向比例 */}}
+    <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+      <a href="{{ $item.RelPermalink }}" class="relative block cursor-pointer">
+        {{/* 使用 h-auto，图片会根据原始文件比例完整显示，不裁切，不留白 */}}
+        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" class="w-full h-auto block" loading="lazy">
+      </a>
+    </div>
+  {{ end }}
+
+  <div class="p-3 mt-5 relative z-10">
+    {{/* 找回：作者标注与日期 */}}
+    <div class="flex items-center space-x-6 text-sm mb-4 text-gray-500 dark:text-gray-400">
+      <span class="inline-block font-medium">
+        <i class="fas fa-user-edit mr-2"></i>
+        <span>{{ if $item.Params.author_note }}{{ $item.Params.author_note }}{{ else }}{{ partial "page_metadata_authors" $item }}{{ end }}</span>
+      </span>
+      <span class="text-gray-300 dark:text-gray-700 px-2">|</span>
+      <span>{{ $item.Date.Format "Jan 2, 2006" }}</span>
+    </div>
+
+    {{/* 找回：论文大标题 */}}
+    <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white">
+      <a href="{{ $item.RelPermalink }}" class="cursor-pointer hover:text-primary-600 transition-colors">{{ $item.Title }}</a>
+    </h2>
+
+    {{/* 摘要：保持两行省略，整齐美观 */}}
+    <div class="mt-2 line-clamp-2 text-sm text-gray-600 dark:text-gray-400">{{ $item.Summary | truncate 135 }}</div>
+
+    {{/* 找回：PDF, Cite, Code, Slides 等所有学术按钮 */}}
+    <div class="mt-4 flex flex-wrap items-center gap-3">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+  </div>
+</div>

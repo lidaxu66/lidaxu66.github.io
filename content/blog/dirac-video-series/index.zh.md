@@ -1,5 +1,6 @@
 ---
 title: "物理学家系列：保罗·狄拉克的故事"
+author_note: "徐李达"
 date: 2026-01-17
 summary: "我制作的讲述保罗·狄拉克 (Paul Dirac) 故事的视频。"
 tags:

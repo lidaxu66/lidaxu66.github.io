@@ -1,5 +1,6 @@
 ---
 title: "Observation of topological frequency combs"
+author_note: "Co-First Author"
 authors:
 - C. J. Flower
 - M. J. Mehrabad
