@@ -1,6 +1,6 @@
 ---
 title: "On-chip multi-timescale spatiotemporal optical synchronization"
-author_note: "First anthor"
+author_note: "First Anthor"
 authors:
 - admin
 - M. J. Mehrabad
