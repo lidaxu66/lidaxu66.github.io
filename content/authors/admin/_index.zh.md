@@ -180,4 +180,3 @@ awards:
 我视自己为物理学家与工程师的结合体，也是实验学家与理论学家的融合体。基础科学很酷，我致力于将其转化为造福现实世界的应用。
 
 
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=p9dWKAfHeD5OflPPZzy3zWbAjnfGfahpLNQSATRSjQM&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
