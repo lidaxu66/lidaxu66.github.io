@@ -146,6 +146,20 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Entrepreneur Lead. NSF I-Corp Award.
+    url: https://www.nsf.gov/funding/initiatives/i-corps
+    date: '2026-03-21'
+    awarder: National Science Foundation
+    icon: hero/trophy
+    summary: |
+      Awarded for our industry-potential research on high-yield integrated nonlinear photonics.
+  - title: Finalist for UMD Invention of the Year.
+    url: https://innovate.umd.edu/invention-year-awards
+    date: '2026-03-05'
+    awarder: University of Maryland
+    icon: hero/trophy
+    summary: |
+      Awarded for our invention Topological Photonics Architecture for Optical Computing and AI (TOPAI).
   - title: School of Physics Elite Program Scholarship
     url: https://physics.nju.edu.cn/
     date: '2019-11-05'

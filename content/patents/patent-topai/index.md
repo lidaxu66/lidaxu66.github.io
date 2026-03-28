@@ -9,5 +9,5 @@ authors:
 - M. Hafezi
 abstract: "Topological photonics as a platform for artificial intelligence."
 publication: "Provisional US Patent (Filed)"
-featured: false
+featured: true
 ---

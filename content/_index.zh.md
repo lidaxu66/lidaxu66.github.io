@@ -54,7 +54,9 @@ sections:
 
             微腔频率梳（或称微梳）通过将连续波激光限制在高品质因子腔内来实现这一点，腔内强烈的循环场驱动克尔非线性，产生一系列等间距的光谱线。这些片上光梳可以连接光学频率与微波信号，产生相干孤子，并能直接与光子线路集成。它们的紧凑性、稳定性和 CMOS 兼容性使微梳成为下一代精密计量、光通信以及新兴非线性与量子技术的有力工具。
       
+        基于我在博士期间关于大规模非线性光子晶格的研究工作，我已开始探索将其作为**光学计算硬件平台**的潜力。同时，我对**光与物质的相互作用**深感兴趣——特别是研究如何通过引入原子系统来克服纯光子系统的固有局限性，从而实现可扩展的**量子网络与量子计算**。
 
+        目前，我与来自不同研究背景的优秀学者保持着紧密的合作关系，包括 **[Dr. Mahmoud Jalali Mehrabad](https://mahmoudjalalimehrabad.com/)**、**[Dr. Pavel Dolgirev](https://scholar.google.com/citations?user=OqoUtD8AAAAJ&hl=en)**、**[Dr. Supratik Sarkar](https://sites.google.com/view/quantum-supra)**、**[Dr. Shi Yuan Ma](https://www.linkedin.com/in/shi-yuan-ma-617500155/)** 以及 **[Dr. Gregory Moille](https://scholar.google.com/citations?user=6fBdsmYAAAAJ&hl=fr)**。在科研道路上，我也获得了 **[Prof. Yanne Chembo](https://chembolab.umd.edu/)**、**[Prof. Kartik Srinivasan](https://www.nist.gov/people/kartik-srinivasan)**，以及对我影响最深远的导师 **[Prof. Mohammad Hafezi](https://hafezi.jqi.umd.edu/people/mohammad-hafezi)** 提供的宝贵指导。
     design:
       columns: '1'
       css_class: research-wide
@@ -101,7 +103,7 @@ sections:
         folders:
           - events
     design:
-      view: card-small
+      view: card
 
 #  - block: collection
 #    id: news

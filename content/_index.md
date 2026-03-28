@@ -54,6 +54,10 @@ sections:
 
           Microresonator frequency combs, or microcombs, achieve this by confining continuous-wave laser light inside a high-Q cavity, where intense circulating fields drive Kerr nonlinearities and generate a series of equally spaced spectral lines. These chip-based combs can operate at microwave repetition rates, produce coherent solitons, and integrate directly with photonic circuits. Their compactness, stability, and CMOS compatibility position microcombs as powerful tools for next-generation precision metrology, telecommunications, and emerging nonlinear and quantum technologies.
 
+        Building on my PhD work with large-scale nonlinear photonic lattices, I have begun exploring their potential as a hardware platform for optical computing. I am also interested in light-matter interactions—specifically how the integration of atomic systems might overcome the inherent limitations of photonics alone to enable scalable quantum networking and computing."
+        
+        These days, I work closely with talents from various backgrounds, including **[Dr. Mahmoud Jalali Mehrabad](https://mahmoudjalalimehrabad.com/)**, **[Dr. Pavel Dolgirev](https://scholar.google.com/citations?user=OqoUtD8AAAAJ&hl=en)**, **[Dr. Supratik Sarkar](https://sites.google.com/view/quantum-supra)**, **[Dr. Shi Yuan Ma](https://www.linkedin.com/in/shi-yuan-ma-617500155/)**, and **[Dr. Gregory Moille](https://scholar.google.com/citations?user=6fBdsmYAAAAJ&hl=fr)**. I have obtained valuave mentoring from **[Prof. Yanne Chembo](https://chembolab.umd.edu/)**, **[Prof. Kartik Srinivasan](https://www.nist.gov/people/kartik-srinivasan)**, and most importantly my advisor **[Prof. Mohammad Hafezi](https://hafezi.jqi.umd.edu/people/mohammad-hafezi)**.
+
 
     design:
       columns: '1'
@@ -101,7 +105,7 @@ sections:
         folders:
           - events
     design:
-      view: card-small
+      view: card
 
 #  - block: collection
 #    id: news

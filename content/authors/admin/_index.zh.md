@@ -166,6 +166,20 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: 创业负责人(Entrepreneurial Lead)，美国国家科学基金会 (NSF) I-Corps™ 创新团队奖
+    url: https://www.nsf.gov/funding/initiatives/i-corps
+    date: '2026-03-21'
+    awarder: 美国国家科学基金会 (NSF)
+    icon: hero/trophy
+    summary: |
+      凭借在“高产率集成非线性光子学”领域极具产业化潜力的研究成果获奖。
+  - title: 马里兰大学 (UMD) 2025年度发明奖决赛入围者
+    url: https://innovate.umd.edu/invention-year-awards
+    date: '2026-03-05'
+    awarder: 马里兰大学
+    icon: hero/trophy
+    summary: |
+      凭借发明“面向光学计算与人工智能的拓扑光子架构 (TOPAI)”入围。
   - title: 南京大学拔尖奖学金
     url: https://physics.nju.edu.cn/
     date: '2019-11-05'
